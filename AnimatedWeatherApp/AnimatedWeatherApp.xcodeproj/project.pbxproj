@@ -32,6 +32,60 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		52B7481928A8FFEF0008F71F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				52B7481C28A9004E0008F71F /* Main */,
+				52B7481D28A900590008F71F /* Navigation */,
+				52B7481E28A900640008F71F /* Detail */,
+				52B7481F28A900720008F71F /* Components */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		52B7481A28A900020008F71F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		52B7481B28A9001D0008F71F /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		52B7481C28A9004E0008F71F /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				52CC70DE289FDA6E00B53299 /* ContentView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		52B7481D28A900590008F71F /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		52B7481E28A900640008F71F /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		52B7481F28A900720008F71F /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 		52CC70D0289FDA6E00B53299 = {
 			isa = PBXGroup;
 			children = (
@@ -52,7 +106,9 @@
 			isa = PBXGroup;
 			children = (
 				52CC70DC289FDA6E00B53299 /* AnimatedWeatherAppApp.swift */,
-				52CC70DE289FDA6E00B53299 /* ContentView.swift */,
+				52B7481928A8FFEF0008F71F /* Views */,
+				52B7481A28A900020008F71F /* Models */,
+				52B7481B28A9001D0008F71F /* Utils */,
 				52CC70E0289FDA7000B53299 /* Assets.xcassets */,
 				52CC70E2289FDA7000B53299 /* Preview Content */,
 			);
