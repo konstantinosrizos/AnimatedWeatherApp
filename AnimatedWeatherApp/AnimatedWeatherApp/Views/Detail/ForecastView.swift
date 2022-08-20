@@ -15,6 +15,7 @@ struct ForecastView: View {
 		.backgroundBlur(radius: 25, opaque: true)
 		.background(Color.bottomSheetBackground)
 		.clipShape(RoundedRectangle(cornerRadius: 44))
+		.innerShadow(shape: RoundedRectangle(cornerRadius: 44), color: Color.bottomSheetBorderMiddle, linewidth: 1, offsetX: 0, offsetY: 1, blur: 0, blendMode: .overlay, opacity: 1)
 		.overlay {
 			Divider()
 				.blendMode(.overlay)
