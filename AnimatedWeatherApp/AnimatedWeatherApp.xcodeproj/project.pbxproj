@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		5239035828B0DD2000624833 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5239035728B0DD2000624833 /* TabBar.swift */; };
 		5239035A28B0E12700624833 /* Shapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5239035928B0E12700624833 /* Shapes.swift */; };
+		5239035D28B0E6FB00624833 /* BottomSheet in Frameworks */ = {isa = PBXBuildFile; productRef = 5239035C28B0E6FB00624833 /* BottomSheet */; };
+		5239035F28B0E95500624833 /* ForecastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5239035E28B0E95500624833 /* ForecastView.swift */; };
 		52B7482128A9052F0008F71F /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B7482028A9052F0008F71F /* Extensions.swift */; };
 		52B7482328A906C00008F71F /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B7482228A906C00008F71F /* HomeView.swift */; };
 		52CC70DD289FDA6E00B53299 /* AnimatedWeatherAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CC70DC289FDA6E00B53299 /* AnimatedWeatherAppApp.swift */; };
@@ -20,6 +22,7 @@
 /* Begin PBXFileReference section */
 		5239035728B0DD2000624833 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 		5239035928B0E12700624833 /* Shapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shapes.swift; sourceTree = "<group>"; };
+		5239035E28B0E95500624833 /* ForecastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastView.swift; sourceTree = "<group>"; };
 		52B7482028A9052F0008F71F /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		52B7482228A906C00008F71F /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		52CC70D9289FDA6E00B53299 /* AnimatedWeatherApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimatedWeatherApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -34,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5239035D28B0E6FB00624833 /* BottomSheet in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +91,7 @@
 		52B7481E28A900640008F71F /* Detail */ = {
 			isa = PBXGroup;
 			children = (
+				5239035E28B0E95500624833 /* ForecastView.swift */,
 			);
 			path = Detail;
 			sourceTree = "<group>";
@@ -151,6 +156,9 @@
 			dependencies = (
 			);
 			name = AnimatedWeatherApp;
+			packageProductDependencies = (
+				5239035C28B0E6FB00624833 /* BottomSheet */,
+			);
 			productName = AnimatedWeatherApp;
 			productReference = 52CC70D9289FDA6E00B53299 /* AnimatedWeatherApp.app */;
 			productType = "com.apple.product-type.application";
@@ -179,6 +187,9 @@
 				Base,
 			);
 			mainGroup = 52CC70D0289FDA6E00B53299;
+			packageReferences = (
+				5239035B28B0E6FB00624833 /* XCRemoteSwiftPackageReference "BottomSheet" */,
+			);
 			productRefGroup = 52CC70DA289FDA6E00B53299 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -209,6 +220,7 @@
 				52B7482328A906C00008F71F /* HomeView.swift in Sources */,
 				52B7482128A9052F0008F71F /* Extensions.swift in Sources */,
 				52CC70DD289FDA6E00B53299 /* AnimatedWeatherAppApp.swift in Sources */,
+				5239035F28B0E95500624833 /* ForecastView.swift in Sources */,
 				5239035828B0DD2000624833 /* TabBar.swift in Sources */,
 				5239035A28B0E12700624833 /* Shapes.swift in Sources */,
 			);
@@ -409,6 +421,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5239035B28B0E6FB00624833 /* XCRemoteSwiftPackageReference "BottomSheet" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Wouter125/BottomSheet";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5239035C28B0E6FB00624833 /* BottomSheet */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5239035B28B0E6FB00624833 /* XCRemoteSwiftPackageReference "BottomSheet" */;
+			productName = BottomSheet;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 52CC70D1289FDA6E00B53299 /* Project object */;
 }
