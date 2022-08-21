@@ -20,6 +20,7 @@
 		52CC70DF289FDA6E00B53299 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CC70DE289FDA6E00B53299 /* ContentView.swift */; };
 		52CC70E1289FDA7000B53299 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52CC70E0289FDA7000B53299 /* Assets.xcassets */; };
 		52CC70E4289FDA7000B53299 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52CC70E3289FDA7000B53299 /* Preview Assets.xcassets */; };
+		52CF642728B222E300F353A2 /* ForecastCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CF642628B222E300F353A2 /* ForecastCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		52CC70DE289FDA6E00B53299 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		52CC70E0289FDA7000B53299 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52CC70E3289FDA7000B53299 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		52CF642628B222E300F353A2 /* ForecastCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 			children = (
 				5239036028B0ED1600624833 /* Blur.swift */,
 				5239036228B0FE2700624833 /* SegmentedControl.swift */,
+				52CF642628B222E300F353A2 /* ForecastCard.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -225,6 +228,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52CF642728B222E300F353A2 /* ForecastCard.swift in Sources */,
 				52CC70DF289FDA6E00B53299 /* ContentView.swift in Sources */,
 				5239036328B0FE2700624833 /* SegmentedControl.swift in Sources */,
 				52B7482328A906C00008F71F /* HomeView.swift in Sources */,
