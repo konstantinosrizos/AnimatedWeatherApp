@@ -23,6 +23,7 @@
 		52CF642728B222E300F353A2 /* ForecastCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CF642628B222E300F353A2 /* ForecastCard.swift */; };
 		52CF642928B22CD100F353A2 /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CF642828B22CD100F353A2 /* NavigationBar.swift */; };
 		52CF642B28B22FDE00F353A2 /* WeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CF642A28B22FDE00F353A2 /* WeatherView.swift */; };
+		52CF642D28B2312F00F353A2 /* WeatherWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CF642C28B2312F00F353A2 /* WeatherWidget.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		52CF642628B222E300F353A2 /* ForecastCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastCard.swift; sourceTree = "<group>"; };
 		52CF642828B22CD100F353A2 /* NavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBar.swift; sourceTree = "<group>"; };
 		52CF642A28B22FDE00F353A2 /* WeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherView.swift; sourceTree = "<group>"; };
+		52CF642C28B2312F00F353A2 /* WeatherWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherWidget.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 				5239036028B0ED1600624833 /* Blur.swift */,
 				5239036228B0FE2700624833 /* SegmentedControl.swift */,
 				52CF642628B222E300F353A2 /* ForecastCard.swift */,
+				52CF642C28B2312F00F353A2 /* WeatherWidget.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -234,6 +237,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52CF642D28B2312F00F353A2 /* WeatherWidget.swift in Sources */,
 				52CF642728B222E300F353A2 /* ForecastCard.swift in Sources */,
 				52CC70DF289FDA6E00B53299 /* ContentView.swift in Sources */,
 				5239036328B0FE2700624833 /* SegmentedControl.swift in Sources */,
