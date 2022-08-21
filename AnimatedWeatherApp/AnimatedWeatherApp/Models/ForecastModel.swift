@@ -9,7 +9,7 @@ import Foundation
 
 enum ForecastPeriod {
 	case hourly
-	case weekly
+	case daily
 }
 
 enum Weather: String {
