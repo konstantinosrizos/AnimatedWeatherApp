@@ -42,7 +42,6 @@ struct WeatherView: View {
 			NavigationBar(searchText: $searchText)
 		}
 		.navigationBarHidden(true)
-//		.searchable(text: $searchText, placement: .navigationBarDrawer(displayMode: .always), prompt: "Search for a city or airport")
     }
 }
 
